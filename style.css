@@ -502,13 +502,6 @@ body.dark .footer_copy:hover {
 }
 
 
-@media (min-width: 768px) {
-.footer_container {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-
-
 @media (min-width: 576px) {
   .about_container,
   .app_container {
@@ -537,7 +530,7 @@ body.dark .footer_copy:hover {
   }
 }
 
-@media (min-width: 778px) {
+@media (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -593,6 +586,10 @@ body.dark .footer_copy:hover {
   .about_container,
   .app_container {
     column-gap: 7rem;
+  }
+
+    .footer_container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
